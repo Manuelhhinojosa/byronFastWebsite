@@ -1,7 +1,7 @@
 import React from "react";
 
 // libraries
-import { delay, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 // images
 import profilePic from "../assets/images/profilePic.png";
