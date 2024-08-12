@@ -11,7 +11,18 @@ export const Experience = () => {
         {experienceData.map((experience, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
             <div className="w-full lg:w-1/4">
-              <p>{experience.year}</p>
+              <p className="mb-2 text-sm text-neutral-400">{experience.year}</p>
+            </div>
+            <div className="w-full max-w-xl lg:w-3/4">
+              <h6 className="mb-2 font-semibold">
+                {experience.role} -
+                <span className="text-sm text-purple-100">
+                  {experience.company}
+                </span>
+              </h6>
+              <p className="mb-4 text-neutral-400 text-justify">
+                {experience.description}
+              </p>
             </div>
           </div>
         ))}
