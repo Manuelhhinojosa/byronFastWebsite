@@ -15,7 +15,7 @@ const About = () => {
             <img className="rounded-2xl" src={aboutImg} alt="aboutImg" />
           </div>
         </div>
-        <div className="w-full lg:w-1/2">
+        <div className="w-full lg:w-1/2 ">
           <div className="flex justify-center lg:justify-start">
             <p className="my-2 max-w-xl py6 text-justify">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. In illo
