@@ -14,7 +14,7 @@ const heroImageUrl =
 const aboutImgUrl =
   "https://res.cloudinary.com/mangud/image/upload/v1723654064/ByronFast/aboutImg_copy_cotad2.jpg";
 const aboutMeParagraph =
-  "Dedicated content writer with a passion for storytelling and a sharp focus on SEO. With over 15 years of experience as an English professor, I bring a deep understanding of language and communication to my writing. My expertise lies in crafting content that not only engages readers but also boosts your online presence. With a strong background in marketing and copywriting, I create persuasive copy that drives results. Research is key to my process, ensuring every piece is accurate, relevant, and aligned with your brand's voice. Let’s work together to create content that connects with your audience and elevates your brand in the digital space.";
+  "Dedicated content writer with a passion for storytelling and a sharp focus on SEO. With almost twenty years of experience as an English instructor, I bring a deep understanding of language and communication to my writing. My expertise lies in crafting content that not only engages readers but also boosts your online presence. With a strong background in marketing and copywriting, I create persuasive copy that drives results. Research is key to my process, ensuring every piece is accurate, relevant, and aligned with your brand's voice. Let’s work together to create content that connects with your audience and elevates your brand in the digital space.";
 
 // Skills Component
 const skillsText = [
