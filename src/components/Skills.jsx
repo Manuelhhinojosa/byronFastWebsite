@@ -44,7 +44,7 @@ const Skills = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <GiSkills className="text-2xl text-cyan-400">skill 1</GiSkills>
+          <p className="text-2xl text-cyan-400">SEO</p>
         </motion.div>
 
         <motion.div
@@ -53,7 +53,7 @@ const Skills = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <GiSkills className="text-2xl">skill 2</GiSkills>
+          <p className="text-2xl">Marketing</p>
         </motion.div>
 
         <motion.div
@@ -62,7 +62,7 @@ const Skills = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <GiSkills className="text-2xl text-green-500">skill 3</GiSkills>
+          <p className="text-2xl text-green-500">Research</p>
         </motion.div>
 
         <motion.div
@@ -71,7 +71,7 @@ const Skills = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <GiSkills className="text-2xl text-pink-500">skill 4</GiSkills>
+          <p className="text-2xl text-pink-500">Copywriting</p>
         </motion.div>
 
         <motion.div
@@ -80,7 +80,7 @@ const Skills = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <GiSkills className="text-2xl text-sky-700">skill 5</GiSkills>
+          <p className="text-2xl text-sky-700">Storytelling</p>
         </motion.div>
       </motion.div>
     </div>
