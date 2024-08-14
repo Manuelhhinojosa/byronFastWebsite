@@ -2,8 +2,9 @@ import React from "react";
 
 // libraries
 import { motion } from "framer-motion";
+
 //Images
-import aboutImg from "../assets/images/aboutImg.jpeg";
+import aboutImgUrl from "../assets/data/text";
 
 // text
 import aboutMeParagraph from "../assets/data/text";
@@ -22,7 +23,11 @@ const About = () => {
           className="w-full lg:w-1/2 lg:p-8"
         >
           <div className="flex items-center justify-center">
-            <img className="rounded-2xl" src={aboutImg} alt="aboutImg" />
+            <img
+              className="rounded-2xl"
+              src={aboutImgUrl.aboutImgUrl}
+              alt={aboutImgUrl.aboutImgUrl}
+            />
           </div>
         </motion.div>
         <motion.div

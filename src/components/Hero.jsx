@@ -4,7 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 // images
-import profilePic from "../assets/images/profilePic.png";
+import heroImageUrl from "../assets/data/text";
 
 // text
 import heroName from "../assets/data/text";
@@ -61,7 +61,7 @@ const Hero = () => {
               animate={{ x: 0, opacity: 100 }}
               transition={{ duration: 1, delay: 1.2 }}
               className="rounded-2xl"
-              src={profilePic}
+              src={heroImageUrl.heroImageUrl}
               alt="profile-pic"
             />
           </div>
