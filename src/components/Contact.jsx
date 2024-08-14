@@ -3,6 +3,11 @@ import React from "react";
 // libraries
 import { motion } from "framer-motion";
 
+// text
+import contactLocation from "../assets/data/text";
+import contactPhone from "../assets/data/text";
+import contactEmail from "../assets/data/text";
+
 const Contact = () => {
   return (
     <div className="border-b border-neutral-900 pb-20">
@@ -21,7 +26,7 @@ const Contact = () => {
           transition={{ duration: 1 }}
           className="my-4"
         >
-          Toronto, Ontario. Canada.
+          {contactLocation.contactLocation}
         </motion.p>
         <motion.p
           whileInView={{ opacity: 1, x: 0 }}
@@ -29,9 +34,9 @@ const Contact = () => {
           transition={{ duration: 1 }}
           className="my-4"
         >
-          416-821-6982
+          {contactPhone.contactPhone}
         </motion.p>
-        <p className="my-4 ">byron.fast@gmail.com</p>
+        <p className="my-4 ">{contactEmail.contactEmail}</p>
       </div>
     </div>
   );

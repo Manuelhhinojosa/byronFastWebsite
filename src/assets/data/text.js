@@ -21,6 +21,11 @@ const skillsText = [
   "Storytelling",
 ];
 
+// Contact Component
+const contactLocation = "Toronto, Ontario. Canada.";
+const contactPhone = "416-821-6982";
+const contactEmail = "byron.fast@gmail.com";
+
 export default {
   navbarLinkedinLink,
   heroName,
@@ -28,4 +33,7 @@ export default {
   heroParagraph,
   aboutMeParagraph,
   skillsText,
+  contactLocation,
+  contactPhone,
+  contactEmail,
 };
