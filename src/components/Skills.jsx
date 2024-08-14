@@ -3,8 +3,8 @@ import React from "react";
 // libraries
 import { motion } from "framer-motion";
 
-// React icons
-import { GiSkills } from "react-icons/gi";
+// text
+import skillsText from "../assets/data/text";
 
 // functions
 
@@ -44,7 +44,7 @@ const Skills = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <p className="text-2xl text-cyan-400">SEO</p>
+          <p className="text-2xl text-cyan-400">{skillsText.skillsText[0]}</p>
         </motion.div>
 
         <motion.div
@@ -53,7 +53,7 @@ const Skills = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <p className="text-2xl">Marketing</p>
+          <p className="text-2xl">{skillsText.skillsText[1]}</p>
         </motion.div>
 
         <motion.div
@@ -62,7 +62,7 @@ const Skills = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <p className="text-2xl text-green-500">Research</p>
+          <p className="text-2xl text-green-500">{skillsText.skillsText[2]}</p>
         </motion.div>
 
         <motion.div
@@ -71,7 +71,7 @@ const Skills = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <p className="text-2xl text-pink-500">Copywriting</p>
+          <p className="text-2xl text-pink-500">{skillsText.skillsText[3]}</p>
         </motion.div>
 
         <motion.div
@@ -80,7 +80,7 @@ const Skills = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <p className="text-2xl text-sky-700">Storytelling</p>
+          <p className="text-2xl text-sky-700">{skillsText.skillsText[4]}</p>
         </motion.div>
       </motion.div>
     </div>

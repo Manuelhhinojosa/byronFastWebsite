@@ -6,6 +6,11 @@ import { motion } from "framer-motion";
 // images
 import profilePic from "../assets/images/profilePic.png";
 
+// text
+import heroName from "../assets/data/text";
+import heroTitle from "../assets/data/text";
+import heroParagraph from "../assets/data/text";
+
 // functions
 
 const container = (delay) => ({
@@ -29,7 +34,7 @@ const Hero = () => {
               animate="visible"
               className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
             >
-              Byron Fast
+              {heroName.heroName}
             </motion.h1>
             <motion.span
               variants={container(0.5)}
@@ -37,7 +42,7 @@ const Hero = () => {
               animate="visible"
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent"
             >
-              Content Writer
+              {heroTitle.heroTitle}
             </motion.span>
             <motion.p
               variants={container(1)}
@@ -45,10 +50,7 @@ const Hero = () => {
               animate="visible"
               className="my-2 max-w-xl py-6 font-light tracking-tighter text-justify"
             >
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque,
-              nobis libero harum eos vel enim voluptas possimus dolores dolore
-              aperiam at dolorem mollitia ipsam dicta in ut tenetur consectetur
-              non.
+              {heroParagraph.heroParagraph}
             </motion.p>
           </div>
         </div>

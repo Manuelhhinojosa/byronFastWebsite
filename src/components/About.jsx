@@ -5,6 +5,9 @@ import { motion } from "framer-motion";
 //Images
 import aboutImg from "../assets/images/aboutImg.jpeg";
 
+// text
+import aboutMeParagraph from "../assets/data/text";
+
 const About = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
@@ -30,18 +33,7 @@ const About = () => {
         >
           <div className="flex justify-center lg:justify-start">
             <p className="my-2 max-w-xl py-6 text-justify ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. In illo
-              similique, earum impedit amet temporibus vero, doloribus, delectus
-              vel alias magni sit nostrum tenetur perferendis blanditiis
-              necessitatibus saepe et quisquam. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Quae hic atque quas reprehenderit
-              reiciendis veritatis vero quaerat magni, excepturi dolores,
-              adipisci officia velit expedita repellat. Blanditiis nisi quis
-              aliquam distinctio? Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Debitis, qui? Cupiditate rerum doloremque eius
-              molestias dolore nostrum, magni odio quisquam consequatur.
-              Impedit, excepturi? Repellendus consectetur est maxime numquam!
-              Animi, labore.
+              {aboutMeParagraph.aboutMeParagraph}
             </p>
           </div>
         </motion.div>

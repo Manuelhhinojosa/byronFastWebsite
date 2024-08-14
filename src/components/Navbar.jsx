@@ -3,7 +3,8 @@ import React from "react";
 // React icons
 import { FaLinkedin } from "react-icons/fa";
 
-// images
+// text
+import navbarLinkedinLink from "../assets/data/text";
 
 const Navbar = () => {
   return (
@@ -12,7 +13,7 @@ const Navbar = () => {
         <div className="text-white mx-2 w-10 text-5xl">BF</div>
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <a href="https://www.linkedin.com/in/manuelhh/">
+        <a href={navbarLinkedinLink.navbarLinkedinLink} target="_">
           <FaLinkedin />
         </a>
       </div>
