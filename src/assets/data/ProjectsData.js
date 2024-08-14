@@ -1,51 +1,57 @@
 const projects = [
   {
-    type: "Type of project",
-    image:
-      "https://res.cloudinary.com/mangud/image/upload/v1711189531/Marisela/Captura_de_pantalla_2024-03-21_a_la_s_23.05.33_qp8nfr.png",
+    id: 1,
+    type: "Blog Post",
     description:
-      "Are you ready to take your fitness career to new heights? Enroll in the comprehensive CFES Personal Trainer Course and become a certified fitness professional. Our CFES Personal Trainer Course is designed to provide you with the knowledge, skills, and confidence needed to excel in the industry. You can choose from our face-to-face or hybrid online format, allowing you to learn in the way that best suits your needs.",
+      "This Article will look at the different varieties of Ironite. It will also cover the application rate, and what benefits you can expect.",
     link: "https://react-icons.github.io/react-icons/search/#q=skill",
+    imgUrl:
+      "https://res.cloudinary.com/mangud/image/upload/v1723654067/ByronFast/Screen_Shot_2024-08-14_at_12.41.41_PM_dk1ive.png",
   },
   {
-    type: "Type of project",
-    image:
-      "https://res.cloudinary.com/mangud/image/upload/v1711189531/Marisela/Captura_de_pantalla_2024-03-21_a_la_s_23.05.33_qp8nfr.png",
+    id: 2,
+    type: "Review Post",
     description:
-      "Are you ready to take your fitness career to new heights? Enroll in the comprehensive CFES Personal Trainer Course and become a certified fitness professional. Our CFES Personal Trainer Course is designed to provide you with the knowledge, skills, and confidence needed to excel in the industry. You can choose from our face-to-face or hybrid online format, allowing you to learn in the way that best suits your needs.",
+      "Do you need to replace those flat pedals on your ride? Here's what to look for in flat pedals for your road bikes and five of the best our there. This article includes affiliate links. If you choose to purchase any of the products we have discussed in this article, we may receive a small commission.",
     link: "https://react-icons.github.io/react-icons/search/#q=skill",
+    imgUrl:
+      "https://res.cloudinary.com/mangud/image/upload/v1723654069/ByronFast/Screen_Shot_2024-08-14_at_12.41.55_PM_fkdsty.png",
   },
   {
-    type: "Type of project",
-    image:
-      "https://res.cloudinary.com/mangud/image/upload/v1711189531/Marisela/Captura_de_pantalla_2024-03-21_a_la_s_23.05.33_qp8nfr.png",
+    id: 3,
+    type: "How-To-Guide",
     description:
-      "Are you ready to take your fitness career to new heights? Enroll in the comprehensive CFES Personal Trainer Course and become a certified fitness professional. Our CFES Personal Trainer Course is designed to provide you with the knowledge, skills, and confidence needed to excel in the industry. You can choose from our face-to-face or hybrid online format, allowing you to learn in the way that best suits your needs.",
+      "Do you have a gas grill but want to try smoking? We talk about what smoking is, the differences between cold and host smoking, how to use wood chips and how to smoke with a gas grill.",
     link: "https://react-icons.github.io/react-icons/search/#q=skill",
+    imgUrl:
+      "https://res.cloudinary.com/mangud/image/upload/v1723654071/ByronFast/Screen_Shot_2024-08-14_at_12.42.11_PM_dx0ybc.png",
   },
   {
-    type: "Type of project",
-    image:
-      "https://res.cloudinary.com/mangud/image/upload/v1711189531/Marisela/Captura_de_pantalla_2024-03-21_a_la_s_23.05.33_qp8nfr.png",
+    id: 4,
+    type: "Listicle",
     description:
-      "Are you ready to take your fitness career to new heights? Enroll in the comprehensive CFES Personal Trainer Course and become a certified fitness professional. Our CFES Personal Trainer Course is designed to provide you with the knowledge, skills, and confidence needed to excel in the industry. You can choose from our face-to-face or hybrid online format, allowing you to learn in the way that best suits your needs.",
+      "Most everyone dreams of living on a tropical beach somewhere as our friends back home suffer the dark and cold of winter. Living as a digital nomad in Southeast Asia makes this dream into a reality. But once you've got your online lined up, there are seven vital things you have to know.",
     link: "https://react-icons.github.io/react-icons/search/#q=skill",
+    imgUrl:
+      "https://res.cloudinary.com/mangud/image/upload/v1723654074/ByronFast/Screen_Shot_2024-08-14_at_12.42.24_PM_giylz1.png",
   },
   {
-    type: "Type of project",
-    image:
-      "https://res.cloudinary.com/mangud/image/upload/v1711189531/Marisela/Captura_de_pantalla_2024-03-21_a_la_s_23.05.33_qp8nfr.png",
+    id: 5,
+    type: "Explainer",
     description:
-      "Are you ready to take your fitness career to new heights? Enroll in the comprehensive CFES Personal Trainer Course and become a certified fitness professional. Our CFES Personal Trainer Course is designed to provide you with the knowledge, skills, and confidence needed to excel in the industry. You can choose from our face-to-face or hybrid online format, allowing you to learn in the way that best suits your needs.",
+      "What qualifies as noise pollution? We're guiding you through noise ordinance laws and how the can help you, wheter you're the noise maker or the complainer",
     link: "https://react-icons.github.io/react-icons/search/#q=skill",
+    imgUrl:
+      "https://res.cloudinary.com/mangud/image/upload/v1723654075/ByronFast/Screen_Shot_2024-08-14_at_12.42.46_PM_v86hqd.png",
   },
   {
-    type: "Type of project",
-    image:
-      "https://res.cloudinary.com/mangud/image/upload/v1711189531/Marisela/Captura_de_pantalla_2024-03-21_a_la_s_23.05.33_qp8nfr.png",
+    id: 6,
+    type: "Medical Blog",
     description:
-      "Are you ready to take your fitness career to new heights? Enroll in the comprehensive CFES Personal Trainer Course and become a certified fitness professional. Our CFES Personal Trainer Course is designed to provide you with the knowledge, skills, and confidence needed to excel in the industry. You can choose from our face-to-face or hybrid online format, allowing you to learn in the way that best suits your needs.",
+      "Nicotinamide riboside is claimed to reverse aging, but is that true? We're revealing the benefits and the side effects of this popular supplement ingredient.",
     link: "https://react-icons.github.io/react-icons/search/#q=skill",
+    imgUrl:
+      "https://res.cloudinary.com/mangud/image/upload/v1723654077/ByronFast/Screen_Shot_2024-08-14_at_12.43.37_PM_uwhn3m.png",
   },
 ];
 
